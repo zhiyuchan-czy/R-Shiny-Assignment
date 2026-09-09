@@ -2,11 +2,16 @@
 #install.packages("readr")
 #install.packages("ggplot2")
 #install.packages("reshape2")
+#install.packages("rsconnect")
+#install.packages("devtools")
 
 library(shiny)
 library(readr)
 library(ggplot2)
 library(reshape2)
+
+devtools::install_github("rstudio/rsconnect")
+rsconnect::writeManifest()
 
 reactiveConsole(TRUE)
 
