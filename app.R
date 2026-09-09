@@ -11,7 +11,7 @@ library(ggplot2)
 library(reshape2)
 
 #devtools::install_github("rstudio/rsconnect")
-rsconnect::writeManifest()
+#rsconnect::writeManifest()
 
 reactiveConsole(TRUE)
 
