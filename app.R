@@ -10,7 +10,7 @@ library(readr)
 library(ggplot2)
 library(reshape2)
 
-devtools::install_github("rstudio/rsconnect")
+#devtools::install_github("rstudio/rsconnect")
 rsconnect::writeManifest()
 
 reactiveConsole(TRUE)
